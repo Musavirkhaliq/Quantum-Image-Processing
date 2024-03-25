@@ -1,0 +1,892 @@
+-----------Expirement-------- 
+
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7f1fe52ee120>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.88      0.76      0.82       982
+           7       0.80      0.90      0.85      1028
+
+    accuracy                           0.83      2010
+   macro avg       0.84      0.83      0.83      2010
+weighted avg       0.84      0.83      0.83      2010
+
+Confusion matrix test: 
+[[748 234]
+ [102 926]]
+Accuracy test: 0.8328358208955224
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.86      0.79      0.82      5842
+           7       0.82      0.88      0.85      6265
+
+    accuracy                           0.84     12107
+   macro avg       0.84      0.83      0.83     12107
+weighted avg       0.84      0.84      0.83     12107
+
+Confusion matrix train: 
+[[4616 1226]
+ [ 767 5498]]
+Accuracy train: 0.8353844883125464
+
+-----------Expirement-------- 
+
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7f2018358620>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.83      0.95      0.89       982
+           7       0.95      0.81      0.87      1028
+
+    accuracy                           0.88      2010
+   macro avg       0.89      0.88      0.88      2010
+weighted avg       0.89      0.88      0.88      2010
+
+Confusion matrix test: 
+[[935  47]
+ [195 833]]
+Accuracy test: 0.8796019900497513
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.81      0.95      0.87      5842
+           7       0.95      0.79      0.86      6265
+
+    accuracy                           0.87     12107
+   macro avg       0.88      0.87      0.87     12107
+weighted avg       0.88      0.87      0.87     12107
+
+Confusion matrix train: 
+[[5562  280]
+ [1332 4933]]
+Accuracy train: 0.8668538861815479
+
+
+-----------Expirement-------- 
+
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7faf90308140>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.51      1.00      0.68       982
+           7       1.00      0.09      0.16      1028
+
+    accuracy                           0.53      2010
+   macro avg       0.76      0.54      0.42      2010
+weighted avg       0.76      0.53      0.41      2010
+
+Confusion matrix test: 
+[[982   0]
+ [940  88]]
+Accuracy test: 0.5323383084577115
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.50      1.00      0.67      5842
+           7       1.00      0.06      0.12      6265
+
+    accuracy                           0.51     12107
+   macro avg       0.75      0.53      0.39     12107
+weighted avg       0.76      0.51      0.38     12107
+
+Confusion matrix train: 
+[[5842    0]
+ [5877  388]]
+Accuracy train: 0.5145783431072933
+-----------Expirement--------
+
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7faf90308140>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.51      1.00      0.68       982
+           7       1.00      0.09      0.16      1028
+
+    accuracy                           0.53      2010
+   macro avg       0.76      0.54      0.42      2010
+weighted avg       0.76      0.53      0.41      2010
+
+Confusion matrix test: 
+[[982   0]
+ [940  88]]
+Accuracy test: 0.5323383084577115
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.50      1.00      0.67      5842
+           7       1.00      0.06      0.12      6265
+
+    accuracy                           0.51     12107
+   macro avg       0.75      0.53      0.39     12107
+weighted avg       0.76      0.51      0.38     12107
+
+Confusion matrix train: 
+[[5842    0]
+ [5877  388]]
+Accuracy train: 0.5145783431072933
+-----------Expirement-------- 
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fdde4db5f10>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.95      0.58      0.72       982
+           7       0.71      0.97      0.82      1028
+
+    accuracy                           0.78      2010
+   macro avg       0.83      0.78      0.77      2010
+weighted avg       0.83      0.78      0.77      2010
+
+Confusion matrix test: 
+[[573 409]
+ [ 30 998]]
+Accuracy test: 0.781592039800995
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.95      0.60      0.74      5842
+           7       0.72      0.97      0.83      6265
+
+    accuracy                           0.79     12107
+   macro avg       0.83      0.79      0.78     12107
+weighted avg       0.83      0.79      0.78     12107
+
+Confusion matrix train: 
+[[3534 2308]
+ [ 205 6060]]
+Accuracy train: 0.7924341290162715
+-----------Expirement--------
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fdde35437a0>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.52      0.94      0.67       982
+           7       0.74      0.17      0.27      1028
+
+    accuracy                           0.54      2010
+   macro avg       0.63      0.55      0.47      2010
+weighted avg       0.63      0.54      0.47      2010
+
+Confusion matrix test: 
+[[923  59]
+ [857 171]]
+Accuracy test: 0.5442786069651742
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.52      0.95      0.67      5842
+           7       0.80      0.18      0.30      6265
+
+    accuracy                           0.55     12107
+   macro avg       0.66      0.57      0.49     12107
+weighted avg       0.66      0.55      0.48     12107
+
+Confusion matrix train: 
+[[5545  297]
+ [5113 1152]]
+Accuracy train: 0.5531510696291402
+-----------Expirement-------- 
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fdd71134b00>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.93      0.19      0.32       982
+           7       0.56      0.99      0.72      1028
+
+    accuracy                           0.60      2010
+   macro avg       0.74      0.59      0.52      2010
+weighted avg       0.74      0.60      0.52      2010
+
+Confusion matrix test: 
+[[ 190  792]
+ [  15 1013]]
+Accuracy test: 0.5985074626865672
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.92      0.20      0.32      5842
+           7       0.57      0.98      0.72      6265
+
+    accuracy                           0.60     12107
+   macro avg       0.74      0.59      0.52     12107
+weighted avg       0.74      0.60      0.53     12107
+
+Confusion matrix train: 
+[[1145 4697]
+ [ 104 6161]]
+Accuracy train: 0.6034525481126621
+-----------Expirement-------- 
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fa957683ef0>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.59      0.06      0.12       982
+           7       0.52      0.96      0.67      1028
+
+    accuracy                           0.52      2010
+   macro avg       0.55      0.51      0.39      2010
+weighted avg       0.55      0.52      0.40      2010
+
+Confusion matrix test: 
+[[ 63 919]
+ [ 44 984]]
+Accuracy test: 0.5208955223880597
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.65      0.07      0.13      5842
+           7       0.53      0.96      0.68      6265
+
+    accuracy                           0.53     12107
+   macro avg       0.59      0.52      0.40     12107
+weighted avg       0.58      0.53      0.41     12107
+
+Confusion matrix train: 
+[[ 408 5434]
+ [ 222 6043]]
+Accuracy train: 0.5328322458082101
+-----------Expirement conducted on-------- Mon Mar 11 18:09:09 2024
+VQC with ZZ encoding and 4x4 images
+number of (train, test) examples = (100, 10)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff43b45cb90>
+number of iterations = 10
+--------------Test results----------------
+-----------Expirement conducted on-------- Mon Mar 11 18:12:04 2024
+VQC with ZZ encoding and 4x4 images
+number of (train, test) examples = (100, 10)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff43b45cb90>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.86      0.86      0.86         7
+           7       0.67      0.67      0.67         3
+
+    accuracy                           0.80        10
+   macro avg       0.76      0.76      0.76        10
+weighted avg       0.80      0.80      0.80        10
+
+Confusion matrix test: 
+[[6 1]
+ [1 2]]
+Accuracy test: 0.8
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.52      0.85      0.65        48
+           7       0.67      0.27      0.38        52
+
+    accuracy                           0.55       100
+   macro avg       0.59      0.56      0.51       100
+weighted avg       0.60      0.55      0.51       100
+
+Confusion matrix train: 
+[[41  7]
+ [38 14]]
+Accuracy train: 0.55
+-----------Expirement conducted on-------- Mon Mar 11 18:18:28 2024
+VQC with ZZ encoding and 4x4 images
+number of (train, test) examples = (100, 10)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff43b45cb90>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.86      0.86      0.86         7
+           7       0.67      0.67      0.67         3
+
+    accuracy                           0.80        10
+   macro avg       0.76      0.76      0.76        10
+weighted avg       0.80      0.80      0.80        10
+
+Confusion matrix test: 
+[[6 1]
+ [1 2]]
+Accuracy test: 0.8
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.52      0.85      0.65        48
+           7       0.67      0.27      0.38        52
+
+    accuracy                           0.55       100
+   macro avg       0.59      0.56      0.51       100
+weighted avg       0.60      0.55      0.51       100
+
+Confusion matrix train: 
+[[41  7]
+ [38 14]]
+Accuracy train: 0.55
+-----------Expirement conducted on-------- Mon Mar 11 22:52:51 2024
+VQC with ZZ encoding and 4x4 images
+number of (train, test) examples = (1000, 100)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff437abc860>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.43      0.34      0.38        47
+           7       0.51      0.60      0.55        53
+
+    accuracy                           0.48       100
+   macro avg       0.47      0.47      0.47       100
+weighted avg       0.47      0.48      0.47       100
+
+Confusion matrix test: 
+[[16 31]
+ [21 32]]
+Accuracy test: 0.48
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.51      0.32      0.40       474
+           7       0.54      0.72      0.62       526
+
+    accuracy                           0.53      1000
+   macro avg       0.53      0.52      0.51      1000
+weighted avg       0.53      0.53      0.51      1000
+
+Confusion matrix train: 
+[[153 321]
+ [146 380]]
+Accuracy train: 0.533
+-----------Expirement conducted on-------- Mon Mar 11 22:55:37 2024
+VQC with ZZ encoding and 4x4 images
+number of (train, test) examples = (1000, 100)
+optimizer = Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.43      0.34      0.38        47
+           7       0.51      0.60      0.55        53
+
+    accuracy                           0.48       100
+   macro avg       0.47      0.47      0.47       100
+weighted avg       0.47      0.48      0.47       100
+
+Confusion matrix test: 
+[[16 31]
+ [21 32]]
+Accuracy test: 0.48
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.51      0.32      0.40       474
+           7       0.54      0.72      0.62       526
+
+    accuracy                           0.53      1000
+   macro avg       0.53      0.52      0.51      1000
+weighted avg       0.53      0.53      0.51      1000
+
+Confusion matrix train: 
+[[153 321]
+ [146 380]]
+Accuracy train: 0.533
+-----------Expirement conducted on-------- Tue Mar 12 09:28:09 2024
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff252d30110>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.97      0.71      0.82       982
+           7       0.78      0.98      0.87      1028
+
+    accuracy                           0.85      2010
+   macro avg       0.88      0.85      0.85      2010
+weighted avg       0.87      0.85      0.85      2010
+
+Confusion matrix test: 
+[[ 699  283]
+ [  20 1008]]
+Accuracy test: 0.8492537313432836
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.97      0.69      0.81      5842
+           7       0.77      0.98      0.86      6265
+
+    accuracy                           0.84     12107
+   macro avg       0.87      0.83      0.83     12107
+weighted avg       0.87      0.84      0.84     12107
+
+Confusion matrix train: 
+[[4027 1815]
+ [ 124 6141]]
+Accuracy train: 0.839844717931775
+
+
+-----------Expirement conducted on-------- Tue Mar 12 10:25:21 2024
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff426704e60>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.97      0.62      0.76       982
+           7       0.73      0.98      0.84      1028
+
+    accuracy                           0.81      2010
+   macro avg       0.85      0.80      0.80      2010
+weighted avg       0.85      0.81      0.80      2010
+
+Confusion matrix test: 
+[[ 608  374]
+ [  16 1012]]
+Accuracy test: 0.8059701492537313
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.98      0.62      0.76      5842
+           7       0.74      0.99      0.85      6265
+
+    accuracy                           0.81     12107
+   macro avg       0.86      0.81      0.80     12107
+weighted avg       0.86      0.81      0.81     12107
+
+Confusion matrix train: 
+[[3651 2191]
+ [  74 6191]]
+Accuracy train: 0.8129181465268027
+-----------Expirement conducted on-------- Tue Mar 12 11:40:32 2024
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff3ee23e630>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.96      0.96       982
+           7       0.96      0.96      0.96      1028
+
+    accuracy                           0.96      2010
+   macro avg       0.96      0.96      0.96      2010
+weighted avg       0.96      0.96      0.96      2010
+
+Confusion matrix test: 
+[[944  38]
+ [ 41 987]]
+Accuracy test: 0.9606965174129353
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.95      0.94      0.95      5842
+           7       0.95      0.96      0.95      6265
+
+    accuracy                           0.95     12107
+   macro avg       0.95      0.95      0.95     12107
+weighted avg       0.95      0.95      0.95     12107
+
+Confusion matrix train: 
+[[5518  324]
+ [ 280 5985]]
+Accuracy train: 0.9501115057404808
+-----------Expirement conducted on-------- Tue Mar 12 12:56:49 2024
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff28a7cdfd0>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.94      0.98      0.96       982
+           7       0.98      0.94      0.96      1028
+
+    accuracy                           0.96      2010
+   macro avg       0.96      0.96      0.96      2010
+weighted avg       0.96      0.96      0.96      2010
+
+Confusion matrix test: 
+[[960  22]
+ [ 57 971]]
+Accuracy test: 0.9606965174129353
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.94      0.97      0.96      5842
+           7       0.97      0.95      0.96      6265
+
+    accuracy                           0.96     12107
+   macro avg       0.96      0.96      0.96     12107
+weighted avg       0.96      0.96      0.96     12107
+
+Confusion matrix train: 
+[[5668  174]
+ [ 340 5925]]
+Accuracy train: 0.9575452217725283
+-----------Expirement conducted on-------- Tue Mar 12 14:16:50 2024
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (10000, 1000)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fc091738bf0>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           0       0.15      0.10      0.12       100
+           1       0.03      0.05      0.04       100
+           2       0.33      0.23      0.27       100
+           3       0.03      0.03      0.03       100
+           4       0.02      0.04      0.03       100
+           5       0.13      0.35      0.19       100
+           6       0.80      0.08      0.15       100
+           7       0.33      0.03      0.06       100
+           8       0.02      0.02      0.02       100
+           9       0.00      0.00      0.00       100
+
+    accuracy                           0.09      1000
+   macro avg       0.18      0.09      0.09      1000
+weighted avg       0.18      0.09      0.09      1000
+
+Confusion matrix test: 
+[[10 20 17  7  4 28  0  3  4  7]
+ [ 0  5 21  1 29 43  0  0  1  0]
+ [ 0 34 23  1 31  8  1  0  2  0]
+ [ 2 19  1  3 40 29  0  1  5  0]
+ [ 8  6  3 22  4 31  1  0 25  0]
+ [19  2  1 16 21 35  0  0  6  0]
+ [ 0 14  2 34  6 35  8  0  1  0]
+ [16  7  0  1 25 11  0  3 35  2]
+ [ 3 40  2 12 27 11  0  2  2  1]
+ [ 9  7  0  3  6 44  0  0 31  0]]
+Accuracy test: 0.093
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           0       0.19      0.12      0.15      1000
+           1       0.05      0.07      0.06      1000
+           2       0.29      0.23      0.26      1000
+           3       0.04      0.04      0.04      1000
+           4       0.01      0.02      0.02      1000
+           5       0.12      0.34      0.17      1000
+           6       0.55      0.06      0.10      1000
+           7       0.31      0.03      0.05      1000
+           8       0.04      0.05      0.04      1000
+           9       0.07      0.01      0.01      1000
+
+    accuracy                           0.10     10000
+   macro avg       0.17      0.10      0.09     10000
+weighted avg       0.17      0.10      0.09     10000
+
+Confusion matrix train: 
+[[117 152 180  19  87 268   1  24  90  62]
+ [  0  68 244   9 232 428   0   0  19   0]
+ [  1 375 231  10 202 135  23   3  19   1]
+ [ 12 154  17  35 481 214   0  14  73   0]
+ [ 40  31  19 258  24 388  19   0 206  15]
+ [129  12  38 128 249 337   0  15  88   4]
+ [  0 100  31 298  88 406  57   0   8  12]
+ [198  14   2   3 275 141   4  28 325  10]
+ [ 44 347  39  59 331 124   0   1  47   8]
+ [ 67  74   0  40 116 418   0   4 273   8]]
+Accuracy train: 0.0952
+-----------Expirement conducted on-------- Tue Mar 12 17:54:15 2024
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (12107, 2010)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7ff3aeb0ce30>
+number of iterations = 200
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.96      0.96       982
+           7       0.96      0.96      0.96      1028
+
+    accuracy                           0.96      2010
+   macro avg       0.96      0.96      0.96      2010
+weighted avg       0.96      0.96      0.96      2010
+
+Confusion matrix test: 
+[[941  41]
+ [ 44 984]]
+Accuracy test: 0.9577114427860697
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.95      0.95      0.95      5842
+           7       0.95      0.95      0.95      6265
+
+    accuracy                           0.95     12107
+   macro avg       0.95      0.95      0.95     12107
+weighted avg       0.95      0.95      0.95     12107
+
+Confusion matrix train: 
+[[5529  313]
+ [ 285 5980]]
+Accuracy train: 0.9506070868092839
+-----------Expirement conducted on-------- Wed Mar 13 20:18:22 2024
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (64, 64)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fa88fc87290>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.98      0.97       982
+           7       0.98      0.96      0.97      1028
+
+    accuracy                           0.97      2010
+   macro avg       0.97      0.97      0.97      2010
+weighted avg       0.97      0.97      0.97      2010
+
+Confusion matrix test: 
+[[960  22]
+ [ 37 991]]
+Accuracy test: 0.9706467661691542
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.97      0.96      5842
+           7       0.97      0.96      0.97      6265
+
+    accuracy                           0.97     12107
+   macro avg       0.97      0.97      0.97     12107
+weighted avg       0.97      0.97      0.97     12107
+
+Confusion matrix train: 
+[[5664  178]
+ [ 233 6032]]
+Accuracy train: 0.9660526967869827
+-----------Expirement conducted on-------- Wed Mar 13 21:49:59 2024
+VQC with RawFeatureVector encoding and 8x8 images
+number of (train, test) examples = (64, 64)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7fa88fc87290>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.98      0.97       982
+           7       0.98      0.96      0.97      1028
+
+    accuracy                           0.97      2010
+   macro avg       0.97      0.97      0.97      2010
+weighted avg       0.97      0.97      0.97      2010
+
+Confusion matrix test: 
+[[960  22]
+ [ 37 991]]
+Accuracy test: 0.9706467661691542
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           4       0.96      0.97      0.96      5842
+           7       0.97      0.96      0.97      6265
+
+    accuracy                           0.97     12107
+   macro avg       0.97      0.97      0.97     12107
+weighted avg       0.97      0.97      0.97     12107
+
+Confusion matrix train: 
+[[5664  178]
+ [ 233 6032]]
+Accuracy train: 0.9660526967869827
+-----------Expirement conducted on-------- Thu Mar 14 11:15:46 2024
+VQC with RawFeatureVector encoding and 4x4 images
+number of (train, test) examples = (16, 16)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7f53163375f0>
+number of iterations = 10
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           3       0.25      0.15      0.19      1010
+           4       0.00      0.00      0.00       982
+           7       0.38      0.87      0.52      1028
+
+    accuracy                           0.35      3020
+   macro avg       0.21      0.34      0.24      3020
+weighted avg       0.21      0.35      0.24      3020
+
+Confusion matrix test: 
+[[156   0 854]
+ [345   0 637]
+ [133   0 895]]
+Accuracy test: 0.3480132450331126
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           3       0.24      0.16      0.19      6131
+           4       0.82      0.00      0.00      5842
+           7       0.38      0.86      0.52      6265
+
+    accuracy                           0.35     18238
+   macro avg       0.48      0.34      0.24     18238
+weighted avg       0.47      0.35      0.24     18238
+
+Confusion matrix train: 
+[[ 957    0 5174]
+ [2113    9 3720]
+ [ 891    2 5372]]
+Accuracy train: 0.3475161750191907
+-----------Expirement conducted on-------- Wed Mar 20 15:02:26 2024
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (256, 256)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7f7dfa790e30>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           0       0.75      0.09      0.16        69
+           1       0.72      0.28      0.40        75
+           2       0.68      0.35      0.46        43
+           3       0.26      0.86      0.40        58
+           4       0.81      0.71      0.76        55
+
+    accuracy                           0.44       300
+   macro avg       0.65      0.46      0.44       300
+weighted avg       0.65      0.44      0.42       300
+
+Confusion matrix test: 
+[[ 6  0  5 56  2]
+ [ 0 21  0 54  0]
+ [ 1  0 15 26  1]
+ [ 1  0  1 50  6]
+ [ 0  8  1  7 39]]
+Accuracy test: 0.43666666666666665
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.15      0.26       614
+           1       0.64      0.27      0.38       627
+           2       0.69      0.32      0.44       592
+           3       0.26      0.83      0.40       591
+           4       0.82      0.66      0.73       576
+
+    accuracy                           0.44      3000
+   macro avg       0.67      0.45      0.44      3000
+weighted avg       0.67      0.44      0.44      3000
+
+Confusion matrix train: 
+[[ 94   1  31 483   5]
+ [  0 172   0 455   0]
+ [  3   4 191 388   6]
+ [  5   4  15 492  75]
+ [  0  89  38  70 379]]
+Accuracy train: 0.44266666666666665
+-----------Expirement conducted on-------- Wed Mar 20 15:50:09 2024
+VQC with RawFeatureVector encoding and 16x16 images
+number of (train, test) examples = (256, 256)
+optimizer = <qiskit_algorithms.optimizers.cobyla.COBYLA object at 0x7f7e201e57c0>
+number of iterations = 100
+--------------Test results----------------
+Classification test: 
+              precision    recall  f1-score   support
+
+           0       0.49      0.73      0.59        63
+           1       0.53      0.99      0.69        78
+           2       0.67      0.36      0.47        61
+           3       0.22      0.13      0.16        46
+           4       1.00      0.02      0.04        52
+
+    accuracy                           0.51       300
+   macro avg       0.58      0.45      0.39       300
+weighted avg       0.58      0.51      0.43       300
+
+Confusion matrix test: 
+[[46  0  3 14  0]
+ [ 0 77  0  1  0]
+ [ 7 27 22  5  0]
+ [24  9  7  6  0]
+ [16 33  1  1  1]]
+Accuracy test: 0.5066666666666667
+--------------Train results----------------
+Classification train: 
+              precision    recall  f1-score   support
+
+           0       0.38      0.68      0.49       571
+           1       0.50      0.99      0.66       683
+           2       0.56      0.27      0.37       575
+           3       0.28      0.14      0.19       627
+           4       0.90      0.03      0.06       544
+
+    accuracy                           0.44      3000
+   macro avg       0.52      0.43      0.35      3000
+weighted avg       0.52      0.44      0.37      3000
+
+Confusion matrix train: 
+[[390  20  41 119   1]
+ [  0 679   3   1   0]
+ [ 74 254 157  89   1]
+ [361 114  63  89   0]
+ [191 299  16  20  18]]
+Accuracy train: 0.44433333333333336
